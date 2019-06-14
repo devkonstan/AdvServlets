@@ -13,6 +13,7 @@ public class GetRateAction {
     private static final String URL = "https://api.exchangeratesapi.io/latest?base=%s&symbols=%s";
 
     public Rate getCurrentRate(String base, String symbols) throws IOException {
+        //czasem trzeba wpisac, zeby przegladarka dzialala poprawnie
         CookieHandler.setDefault(new CookieManager(null, CookiePolicy.ACCEPT_ALL));
 
         URL url = new URL(String.format(URL, base, symbols));
