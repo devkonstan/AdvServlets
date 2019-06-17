@@ -4,13 +4,13 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="Session" />
+          <element id="module-output" name="AdvServlets" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="gson-2.8.5" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="Session/web/Web" />
+      <element id="javaee-facet-resources" facet="AdvServlets/web/Web" />
     </root>
   </artifact>
 </component>
