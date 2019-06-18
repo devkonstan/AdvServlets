@@ -1,4 +1,4 @@
-package Currency;
+package CurrencyAPI;
 
 import com.google.gson.Gson;
 

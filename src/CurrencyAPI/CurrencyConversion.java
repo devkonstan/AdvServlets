@@ -1,4 +1,4 @@
-package Currency;
+package CurrencyAPI;
 
 import java.util.stream.Stream;
 

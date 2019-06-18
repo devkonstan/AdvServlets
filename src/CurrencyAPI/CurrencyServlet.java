@@ -1,4 +1,4 @@
-package Currency;
+package CurrencyAPI;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+//wersja wykorzystujaca API
 @WebServlet("/currency")
 public class CurrencyServlet extends HttpServlet {
 
