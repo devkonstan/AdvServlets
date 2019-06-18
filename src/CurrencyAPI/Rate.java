@@ -8,7 +8,7 @@ public class Rate {
 
     @Override
     public String toString() {
-        return "Currency.Rate{" +
+        return "Rate{" +
                 "rates=" + rates +
                 '}';
     }
