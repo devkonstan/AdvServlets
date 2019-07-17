@@ -37,7 +37,7 @@ public class Date {
 
     @Override
     public String toString() {
-        return "Date.Date{" +
+        return "Date{" +
                 "dayOfTheWeek='" + dayOfTheWeek + '\'' +
                 ", month='" + month + '\'' +
                 ", year='" + year + '\'' +
